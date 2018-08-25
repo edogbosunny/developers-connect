@@ -1,0 +1,25 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "description": "A simple Social media App built with MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edogbosunny/developers-connect.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "node.js",
+    "redux"
+  ],
+  "author": "Sunny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edogbosunny/developers-connect/issues"
+  },
+  "homepage": "https://github.com/edogbosunny/developers-connect#readme"
+}
