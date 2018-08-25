@@ -2,7 +2,7 @@
   "name": "devconnect",
   "version": "1.0.0",
   "description": "A simple Social media App built with MERN Stack",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "null"
   },
