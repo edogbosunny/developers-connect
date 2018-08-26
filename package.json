@@ -4,7 +4,8 @@
   "description": "A simple Social media App built with MERN Stack",
   "main": "server.js",
   "scripts": {
-    "test": "null"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/edogbosunny/developers-connect/issues"
   },
-  "homepage": "https://github.com/edogbosunny/developers-connect#readme"
+  "homepage": "https://github.com/edogbosunny/developers-connect#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.7.0"
+  }
 }
