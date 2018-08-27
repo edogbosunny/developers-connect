@@ -36,7 +36,7 @@ module.exports = validateRegisterInput = data => {
     errors.password2 = "Condfirm Password field is required";
   }
 
-  if (!SValidator.equals(data.password, data.password2)) {
+  if (!Validator.equals(data.password, data.password2)) {
     errors.password2 = "Password must match";
   }
 
